@@ -7,7 +7,7 @@ import {
 import { searchDocuments } from "@/lib/search";
 
 const CHAT_MODEL =
-  process.env.GROQ_CHAT_MODEL ?? "moonshotai/kimi-k2-instruct-0905";
+  process.env.GROQ_CHAT_MODEL ?? "llama-3.3-70b-versatile";
 
 const groq = createOpenAI({
   apiKey: process.env.GROQ_API_KEY,
